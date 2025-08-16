@@ -1,207 +1,153 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[codz]
-*$py.class
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>بوتاتي - TEAM LNC NTX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #00ffcc;
+        }
+        .bot-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .bot-card {
+            background-color: #1e1e1e;
+            border-radius: 15px;
+            padding: 20px;
+            width: 350px;
+            text-align: right;
+            border: 3px solid #00ffcc;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .bot-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px #00ffcc;
+        }
+        .bot-title {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #ffcc00;
+        }
+        .command {
+            background-color: #222;
+            margin: 3px 0;
+            padding: 5px;
+            border-radius: 5px;
+            text-align: left;
+        }
+        .section-title {
+            color: #ffcc00;
+            margin: 10px 0 5px 0;
+            font-weight: bold;
+        }
+        .buy-button {
+            background: linear-gradient(90deg, #ffcc00, #ff5500);
+            color: #000;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px 25px;
+            border-radius: 12px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: transform 0.2s;
+        }
+        .buy-button:hover {
+            transform: scale(1.05);
+        }
+        a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>⚡ بوتاتي | TEAM LNC NTX</h1>
+    <p>🚀 أقوى بوتات Free Fire في العالم العربي – الكل في واحد 🎯</p>
 
-# C extensions
-*.so
+    <div class="bot-container">
+        <!-- بوت صديق -->
+        <div class="bot-card" style="border-color:#00ffcc">
+            <div class="bot-title">🤖 بوت صديق</div>
+            <p>يقبل طلبات ويكلم داخل اللعبة.</p>
+            <div class="section-title">🎮 الأوامر:</div>
+            <div class="command">💣 /spam &lt;id&gt; &lt;عدد&gt;</div>
+            <div class="command">📨 /send &lt;id&gt; &lt;الرسالة&gt;</div>
+            <div class="command">🤖 /friend &lt;id&gt;</div>
+            <div class="section-title">✨ الأسعار:</div>
+            <p>4 أيام = 100 💎 | 7 أيام = 200 💎 | 20 يوم = 350 💎 | شهر = 450 💎</p>
+            <button class="buy-button" onclick="window.location.href='https://t.me/dragonvzy';">
+                💎 اشترِ الآن
+            </button>
+        </div>
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+        <!-- بوت تطبيق -->
+        <div class="bot-card" style="border-color:#ff5500">
+            <div class="bot-title">📱 بوت تطبيق</div>
+            <p>تشغله من الموبايل وتكتب أوامر.</p>
+            <div class="section-title">🎮 الأوامر:</div>
+            <div class="command">📡 /visit &lt;id&gt;</div>
+            <div class="command">🖼 /banner &lt;id&gt;</div>
+            <div class="command">🎭 /outfit &lt;id&gt;</div>
+            <div class="section-title">✨ الأسعار:</div>
+            <p>4 أيام = 100 💎 | 7 أيام = 200 💎 | 20 يوم = 350 💎 | شهر = 450 💎</p>
+            <button class="buy-button" onclick="window.location.href='https://t.me/dragonvzy';">
+                💎 اشترِ الآن
+            </button>
+        </div>
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+        <!-- بوت سكواد -->
+        <div class="bot-card" style="border-color:#ffaa00">
+            <div class="bot-title">👥 بوت سكواد</div>
+            <p>يدخل أي روم أو سكواد تلقائي.</p>
+            <div class="section-title">🎮 الأوامر:</div>
+            <div class="command">👥 /squad &lt;id&gt;</div>
+            <div class="command">📊 /info &lt;id&gt;</div>
+            <div class="section-title">✨ الأسعار:</div>
+            <p>4 أيام = 100 💎 | 7 أيام = 200 💎 | 20 يوم = 350 💎 | شهر = 450 💎</p>
+            <button class="buy-button" onclick="window.location.href='https://t.me/dragonvzy';">
+                💎 اشترِ الآن
+            </button>
+        </div>
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+        <!-- بوت المقبرة -->
+        <div class="bot-card" style="border-color:#ff0000">
+            <div class="bot-title">💀 بوت المقبرة</div>
+            <p>أقوى نسخة للشبح داخل اللعبة.</p>
+            <div class="section-title">🎮 الأوامر:</div>
+            <div class="command">💣 /spam &lt;id&gt; &lt;عدد&gt;</div>
+            <div class="command">📨 /send &lt;id&gt; &lt;الرسالة&gt;</div>
+            <div class="section-title">✨ الأسعار:</div>
+            <p>4 أيام = 100 💎 | 7 أيام = 200 💎 | 20 يوم = 350 💎 | شهر = 450 💎</p>
+            <button class="buy-button" onclick="window.location.href='https://t.me/dragonvzy';">
+                💎 اشترِ الآن
+            </button>
+        </div>
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py.cover
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-.pybuilder/
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# UV
-#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#uv.lock
-
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
-#poetry.toml
-
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
-#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
-#pdm.lock
-#pdm.toml
-.pdm-python
-.pdm-build/
-
-# pixi
-#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
-#pixi.lock
-#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
-#   in the .venv directory. It is recommended not to include this directory in version control.
-.pixi
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.envrc
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
-
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
-
-# Abstra
-# Abstra is an AI-powered process automation framework.
-# Ignore directories containing user credentials, local state, and settings.
-# Learn more at https://abstra.io/docs
-.abstra/
-
-# Visual Studio Code
-#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
-#  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
-#  you could uncomment the following to ignore the entire vscode folder
-# .vscode/
-
-# Ruff stuff:
-.ruff_cache/
-
-# PyPI configuration file
-.pypirc
-
-# Cursor
-#  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
-#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
-#  refer to https://docs.cursor.com/context/ignore-files
-.cursorignore
-.cursorindexingignore
-
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
+        <!-- بانل بوت تليجرام -->
+        <div class="bot-card" style="border-color:#00aaff">
+            <div class="bot-title">📊 بانل بوت تليجرام</div>
+            <p>معلومات + بنرات + أوامر كاملة.</p>
+            <div class="section-title">🎮 الأوامر:</div>
+            <div class="command">📊 /info &lt;id&gt;</div>
+            <div class="command">🖼 /banner &lt;id&gt;</div>
+            <div class="command">⚡ /help</div>
+            <div class="section-title">✨ الأسعار:</div>
+            <p>4 أيام = 100 💎 | 7 أيام = 200 💎 | 20 يوم = 350 💎 | شهر = 450 💎</p>
+            <button class="buy-button" onclick="window.location.href='https://t.me/dragonvzy';">
+                💎 اشترِ الآن
+            </button>
+        </div>
+    </div>
+</body>
+</html>
